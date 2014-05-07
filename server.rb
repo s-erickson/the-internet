@@ -90,6 +90,10 @@ end
 
 load_frame_get_actions
 
+get '/yuimenus' do
+  erb :yuimenus
+end
+
 get '/frames' do
   erb :frames, :layout => false
 end
