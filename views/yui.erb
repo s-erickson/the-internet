@@ -1,0 +1,11 @@
+<h3>Yahoo! User Interface Library</h3>
+<p>This secton includes example pages that allow you to test your mettle against some of the trickier elements included in the <a href="https://yuilibrary.com/projects/yui3/">YUI 3</a> library. Much like <a href="/jqueryui">JQuery's UI</a> library, YUI is a very powerful javascript UI library which is very pleasent to use from a user's perspective, but poses some significant difficulties for those tasked with writing automation for pages utilizing it.
+</p>
+<h5>Some of the more challenging aspects of YUI are listed below:</h5>
+<ul>
+  <li>If element IDs are not supplied by the developers, YUI creates it's own at runtime which are useless for automation</li>
+  <li>Visibility of elements is not always handled explicitly in the DOM, meaning that some elements can be found, but will cause tests to fail when they are interacted with.</li>
+  <li>Specialized 'combination' elements that include the functionality of multiple UI elements in a single element and cannot be handled by typical automation methods.</li>
+</ul>
+<h4>Available Examples</h4>
+<%= erb :yui_examples %>

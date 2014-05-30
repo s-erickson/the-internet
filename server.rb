@@ -90,6 +90,10 @@ end
 
 load_frame_get_actions
 
+get '/yui' do
+  erb :yui
+end
+
 get '/yuimenus' do
   erb :yuimenus
 end
